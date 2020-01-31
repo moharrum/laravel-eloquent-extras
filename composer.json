@@ -1,0 +1,39 @@
+{
+    "name": "moharrum/laravel-eloquent-extras",
+    "description": "Set of extra and useful Eloquent helpers to speed up development.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khalid Moharrum",
+            "email": "khalid.moharram@gmail.com",
+            "homepage": "https://github.com/moharrum"
+        }
+    ],
+    "homepage": "https://github.com/moharrum/laravel-eloquent-extras",
+    "keywords": [
+        "moharrum",
+        "laravel",
+        "lumen",
+        "eloquent",
+        "model",
+        "id",
+        "uuid",
+        "primary-key",
+        "v4",
+        "version 4",
+        "ordered",
+        "ordered uuid",
+        "orderedUuid"
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moharrum\\LaravelEloquentExtras\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
